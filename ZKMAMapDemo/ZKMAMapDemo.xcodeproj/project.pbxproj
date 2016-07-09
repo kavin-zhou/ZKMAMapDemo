@@ -325,6 +325,11 @@
 				TargetAttributes = {
 					588E06B11D30B7A5002EB892 = {
 						CreatedOnToolsVersion = 7.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					588E06CA1D30B7A5002EB892 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -624,6 +629,7 @@
 				588E06E11D30B7A5002EB892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		588E06E21D30B7A5002EB892 /* Build configuration list for PBXNativeTarget "ZKMAMapDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +638,7 @@
 				588E06E41D30B7A5002EB892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		588E06E51D30B7A5002EB892 /* Build configuration list for PBXNativeTarget "ZKMAMapDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -640,6 +647,7 @@
 				588E06E71D30B7A5002EB892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
