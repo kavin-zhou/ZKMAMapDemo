@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		588E06B71D30B7A5002EB892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E06B61D30B7A5002EB892 /* main.m */; };
+		588E06BA1D30B7A5002EB892 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E06B91D30B7A5002EB892 /* AppDelegate.m */; };
+		588E06C21D30B7A5002EB892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588E06C11D30B7A5002EB892 /* Assets.xcassets */; };
+		588E06C51D30B7A5002EB892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588E06C31D30B7A5002EB892 /* LaunchScreen.storyboard */; };
+		588E06D01D30B7A5002EB892 /* ZKMAMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E06CF1D30B7A5002EB892 /* ZKMAMapDemoTests.m */; };
+		588E06DB1D30B7A5002EB892 /* ZKMAMapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E06DA1D30B7A5002EB892 /* ZKMAMapDemoUITests.m */; };
+		588E06EC1D30B7F6002EB892 /* ZKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E06EA1D30B7F6002EB892 /* ZKMainViewController.m */; };
+		588E06ED1D30B7F6002EB892 /* ZKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 588E06EB1D30B7F6002EB892 /* ZKMainViewController.xib */; };
+		588E06F51D30BA62002EB892 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E06F21D30BA62002EB892 /* AMapFoundationKit.framework */; };
+		588E06F61D30BA62002EB892 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E06F31D30BA62002EB892 /* AMapSearchKit.framework */; };
+		588E06F71D30BA62002EB892 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E06F41D30BA62002EB892 /* MAMapKit.framework */; };
+		588E06F91D30BA7A002EB892 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 588E06F81D30BA7A002EB892 /* AMap.bundle */; };
+		588E06FC1D30BB0B002EB892 /* ZKConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E06FB1D30BB0B002EB892 /* ZKConfigure.m */; };
+		588E06FF1D30C01D002EB892 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E06FE1D30C01D002EB892 /* UIKit.framework */; };
+		588E07011D30C027002EB892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E07001D30C027002EB892 /* Foundation.framework */; };
+		588E07031D30C02F002EB892 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E07021D30C02F002EB892 /* CoreGraphics.framework */; };
+		588E07051D30C045002EB892 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E07041D30C045002EB892 /* QuartzCore.framework */; };
+		588E07071D30C04F002EB892 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E07061D30C04F002EB892 /* OpenGLES.framework */; };
+		588E07091D30C058002EB892 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E07081D30C058002EB892 /* CoreLocation.framework */; };
+		588E070B1D30C063002EB892 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E070A1D30C063002EB892 /* CoreTelephony.framework */; };
+		588E070D1D30C06C002EB892 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E070C1D30C06C002EB892 /* SystemConfiguration.framework */; };
+		588E070F1D30C07C002EB892 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E070E1D30C07C002EB892 /* libz.tbd */; };
+		588E07111D30C08C002EB892 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E07101D30C08C002EB892 /* libstdc++.6.0.9.tbd */; };
+		588E07131D30C09E002EB892 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E07121D30C09E002EB892 /* libc++.tbd */; };
+		588E07151D30C0A8002EB892 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E07141D30C0A8002EB892 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		588E06CC1D30B7A5002EB892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 588E06AA1D30B7A5002EB892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 588E06B11D30B7A5002EB892;
+			remoteInfo = ZKMAMapDemo;
+		};
+		588E06D71D30B7A5002EB892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 588E06AA1D30B7A5002EB892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 588E06B11D30B7A5002EB892;
+			remoteInfo = ZKMAMapDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		588E06B21D30B7A5002EB892 /* ZKMAMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKMAMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		588E06B61D30B7A5002EB892 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		588E06B81D30B7A5002EB892 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		588E06B91D30B7A5002EB892 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		588E06C11D30B7A5002EB892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		588E06C41D30B7A5002EB892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		588E06C61D30B7A5002EB892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588E06CB1D30B7A5002EB892 /* ZKMAMapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKMAMapDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		588E06CF1D30B7A5002EB892 /* ZKMAMapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKMAMapDemoTests.m; sourceTree = "<group>"; };
+		588E06D11D30B7A5002EB892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588E06D61D30B7A5002EB892 /* ZKMAMapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKMAMapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		588E06DA1D30B7A5002EB892 /* ZKMAMapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKMAMapDemoUITests.m; sourceTree = "<group>"; };
+		588E06DC1D30B7A5002EB892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588E06E91D30B7F6002EB892 /* ZKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMainViewController.h; sourceTree = "<group>"; };
+		588E06EA1D30B7F6002EB892 /* ZKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMainViewController.m; sourceTree = "<group>"; };
+		588E06EB1D30B7F6002EB892 /* ZKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKMainViewController.xib; sourceTree = "<group>"; };
+		588E06F21D30BA62002EB892 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		588E06F31D30BA62002EB892 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		588E06F41D30BA62002EB892 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		588E06F81D30BA7A002EB892 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		588E06FA1D30BB0B002EB892 /* ZKConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKConfigure.h; path = Classes/ZKConfigure.h; sourceTree = "<group>"; };
+		588E06FB1D30BB0B002EB892 /* ZKConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKConfigure.m; path = Classes/ZKConfigure.m; sourceTree = "<group>"; };
+		588E06FD1D30BDD3002EB892 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		588E06FE1D30C01D002EB892 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		588E07001D30C027002EB892 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		588E07021D30C02F002EB892 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		588E07041D30C045002EB892 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		588E07061D30C04F002EB892 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		588E07081D30C058002EB892 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		588E070A1D30C063002EB892 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		588E070C1D30C06C002EB892 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		588E070E1D30C07C002EB892 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		588E07101D30C08C002EB892 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		588E07121D30C09E002EB892 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		588E07141D30C0A8002EB892 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		588E06AF1D30B7A5002EB892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588E07151D30C0A8002EB892 /* Security.framework in Frameworks */,
+				588E07131D30C09E002EB892 /* libc++.tbd in Frameworks */,
+				588E07111D30C08C002EB892 /* libstdc++.6.0.9.tbd in Frameworks */,
+				588E070F1D30C07C002EB892 /* libz.tbd in Frameworks */,
+				588E070D1D30C06C002EB892 /* SystemConfiguration.framework in Frameworks */,
+				588E070B1D30C063002EB892 /* CoreTelephony.framework in Frameworks */,
+				588E07091D30C058002EB892 /* CoreLocation.framework in Frameworks */,
+				588E07071D30C04F002EB892 /* OpenGLES.framework in Frameworks */,
+				588E07051D30C045002EB892 /* QuartzCore.framework in Frameworks */,
+				588E07031D30C02F002EB892 /* CoreGraphics.framework in Frameworks */,
+				588E07011D30C027002EB892 /* Foundation.framework in Frameworks */,
+				588E06FF1D30C01D002EB892 /* UIKit.framework in Frameworks */,
+				588E06F71D30BA62002EB892 /* MAMapKit.framework in Frameworks */,
+				588E06F61D30BA62002EB892 /* AMapSearchKit.framework in Frameworks */,
+				588E06F51D30BA62002EB892 /* AMapFoundationKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588E06C81D30B7A5002EB892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588E06D31D30B7A5002EB892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		588E06A91D30B7A5002EB892 = {
+			isa = PBXGroup;
+			children = (
+				588E06B41D30B7A5002EB892 /* ZKMAMapDemo */,
+				588E06CE1D30B7A5002EB892 /* ZKMAMapDemoTests */,
+				588E06D91D30B7A5002EB892 /* ZKMAMapDemoUITests */,
+				588E06B31D30B7A5002EB892 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		588E06B31D30B7A5002EB892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				588E06B21D30B7A5002EB892 /* ZKMAMapDemo.app */,
+				588E06CB1D30B7A5002EB892 /* ZKMAMapDemoTests.xctest */,
+				588E06D61D30B7A5002EB892 /* ZKMAMapDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		588E06B41D30B7A5002EB892 /* ZKMAMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				588E06B81D30B7A5002EB892 /* AppDelegate.h */,
+				588E06B91D30B7A5002EB892 /* AppDelegate.m */,
+				588E06E81D30B7DA002EB892 /* Classes */,
+				588E06C61D30B7A5002EB892 /* Info.plist */,
+				588E06FA1D30BB0B002EB892 /* ZKConfigure.h */,
+				588E06FB1D30BB0B002EB892 /* ZKConfigure.m */,
+				588E06F01D30BA54002EB892 /* ThirdParty */,
+				588E06B51D30B7A5002EB892 /* Supporting Files */,
+			);
+			path = ZKMAMapDemo;
+			sourceTree = "<group>";
+		};
+		588E06B51D30B7A5002EB892 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				588E06C11D30B7A5002EB892 /* Assets.xcassets */,
+				588E06C31D30B7A5002EB892 /* LaunchScreen.storyboard */,
+				588E06B61D30B7A5002EB892 /* main.m */,
+				588E06FD1D30BDD3002EB892 /* PrefixHeader.pch */,
+				588E07141D30C0A8002EB892 /* Security.framework */,
+				588E07121D30C09E002EB892 /* libc++.tbd */,
+				588E07101D30C08C002EB892 /* libstdc++.6.0.9.tbd */,
+				588E070E1D30C07C002EB892 /* libz.tbd */,
+				588E070C1D30C06C002EB892 /* SystemConfiguration.framework */,
+				588E070A1D30C063002EB892 /* CoreTelephony.framework */,
+				588E07081D30C058002EB892 /* CoreLocation.framework */,
+				588E07061D30C04F002EB892 /* OpenGLES.framework */,
+				588E07041D30C045002EB892 /* QuartzCore.framework */,
+				588E07021D30C02F002EB892 /* CoreGraphics.framework */,
+				588E07001D30C027002EB892 /* Foundation.framework */,
+				588E06FE1D30C01D002EB892 /* UIKit.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		588E06CE1D30B7A5002EB892 /* ZKMAMapDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				588E06CF1D30B7A5002EB892 /* ZKMAMapDemoTests.m */,
+				588E06D11D30B7A5002EB892 /* Info.plist */,
+			);
+			path = ZKMAMapDemoTests;
+			sourceTree = "<group>";
+		};
+		588E06D91D30B7A5002EB892 /* ZKMAMapDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				588E06DA1D30B7A5002EB892 /* ZKMAMapDemoUITests.m */,
+				588E06DC1D30B7A5002EB892 /* Info.plist */,
+			);
+			path = ZKMAMapDemoUITests;
+			sourceTree = "<group>";
+		};
+		588E06E81D30B7DA002EB892 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				588E06E91D30B7F6002EB892 /* ZKMainViewController.h */,
+				588E06EA1D30B7F6002EB892 /* ZKMainViewController.m */,
+				588E06EB1D30B7F6002EB892 /* ZKMainViewController.xib */,
+				588E07161D30C256002EB892 /* Map */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		588E06F01D30BA54002EB892 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				588E06F11D30BA62002EB892 /* GaoDeSDK */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		588E06F11D30BA62002EB892 /* GaoDeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				588E06F81D30BA7A002EB892 /* AMap.bundle */,
+				588E06F21D30BA62002EB892 /* AMapFoundationKit.framework */,
+				588E06F31D30BA62002EB892 /* AMapSearchKit.framework */,
+				588E06F41D30BA62002EB892 /* MAMapKit.framework */,
+			);
+			path = GaoDeSDK;
+			sourceTree = "<group>";
+		};
+		588E07161D30C256002EB892 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				588E071A1D30C28D002EB892 /* Location */,
+				588E07191D30C28D002EB892 /* Line */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		588E07191D30C28D002EB892 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		588E071A1D30C28D002EB892 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		588E06B11D30B7A5002EB892 /* ZKMAMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588E06DF1D30B7A5002EB892 /* Build configuration list for PBXNativeTarget "ZKMAMapDemo" */;
+			buildPhases = (
+				588E06AE1D30B7A5002EB892 /* Sources */,
+				588E06AF1D30B7A5002EB892 /* Frameworks */,
+				588E06B01D30B7A5002EB892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKMAMapDemo;
+			productName = ZKMAMapDemo;
+			productReference = 588E06B21D30B7A5002EB892 /* ZKMAMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		588E06CA1D30B7A5002EB892 /* ZKMAMapDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588E06E21D30B7A5002EB892 /* Build configuration list for PBXNativeTarget "ZKMAMapDemoTests" */;
+			buildPhases = (
+				588E06C71D30B7A5002EB892 /* Sources */,
+				588E06C81D30B7A5002EB892 /* Frameworks */,
+				588E06C91D30B7A5002EB892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				588E06CD1D30B7A5002EB892 /* PBXTargetDependency */,
+			);
+			name = ZKMAMapDemoTests;
+			productName = ZKMAMapDemoTests;
+			productReference = 588E06CB1D30B7A5002EB892 /* ZKMAMapDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		588E06D51D30B7A5002EB892 /* ZKMAMapDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588E06E51D30B7A5002EB892 /* Build configuration list for PBXNativeTarget "ZKMAMapDemoUITests" */;
+			buildPhases = (
+				588E06D21D30B7A5002EB892 /* Sources */,
+				588E06D31D30B7A5002EB892 /* Frameworks */,
+				588E06D41D30B7A5002EB892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				588E06D81D30B7A5002EB892 /* PBXTargetDependency */,
+			);
+			name = ZKMAMapDemoUITests;
+			productName = ZKMAMapDemoUITests;
+			productReference = 588E06D61D30B7A5002EB892 /* ZKMAMapDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		588E06AA1D30B7A5002EB892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZK;
+				TargetAttributes = {
+					588E06B11D30B7A5002EB892 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					588E06CA1D30B7A5002EB892 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 588E06B11D30B7A5002EB892;
+					};
+					588E06D51D30B7A5002EB892 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 588E06B11D30B7A5002EB892;
+					};
+				};
+			};
+			buildConfigurationList = 588E06AD1D30B7A5002EB892 /* Build configuration list for PBXProject "ZKMAMapDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 588E06A91D30B7A5002EB892;
+			productRefGroup = 588E06B31D30B7A5002EB892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				588E06B11D30B7A5002EB892 /* ZKMAMapDemo */,
+				588E06CA1D30B7A5002EB892 /* ZKMAMapDemoTests */,
+				588E06D51D30B7A5002EB892 /* ZKMAMapDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		588E06B01D30B7A5002EB892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588E06C51D30B7A5002EB892 /* LaunchScreen.storyboard in Resources */,
+				588E06C21D30B7A5002EB892 /* Assets.xcassets in Resources */,
+				588E06F91D30BA7A002EB892 /* AMap.bundle in Resources */,
+				588E06ED1D30B7F6002EB892 /* ZKMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588E06C91D30B7A5002EB892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588E06D41D30B7A5002EB892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		588E06AE1D30B7A5002EB892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588E06BA1D30B7A5002EB892 /* AppDelegate.m in Sources */,
+				588E06B71D30B7A5002EB892 /* main.m in Sources */,
+				588E06EC1D30B7F6002EB892 /* ZKMainViewController.m in Sources */,
+				588E06FC1D30BB0B002EB892 /* ZKConfigure.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588E06C71D30B7A5002EB892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588E06D01D30B7A5002EB892 /* ZKMAMapDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588E06D21D30B7A5002EB892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588E06DB1D30B7A5002EB892 /* ZKMAMapDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		588E06CD1D30B7A5002EB892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 588E06B11D30B7A5002EB892 /* ZKMAMapDemo */;
+			targetProxy = 588E06CC1D30B7A5002EB892 /* PBXContainerItemProxy */;
+		};
+		588E06D81D30B7A5002EB892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 588E06B11D30B7A5002EB892 /* ZKMAMapDemo */;
+			targetProxy = 588E06D71D30B7A5002EB892 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		588E06C31D30B7A5002EB892 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				588E06C41D30B7A5002EB892 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		588E06DD1D30B7A5002EB892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		588E06DE1D30B7A5002EB892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		588E06E01D30B7A5002EB892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZKMAMapDemo/ThirdParty/GaoDeSDK",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = ZKMAMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKMAMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		588E06E11D30B7A5002EB892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZKMAMapDemo/ThirdParty/GaoDeSDK",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = ZKMAMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKMAMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		588E06E31D30B7A5002EB892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKMAMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKMAMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKMAMapDemo.app/ZKMAMapDemo";
+			};
+			name = Debug;
+		};
+		588E06E41D30B7A5002EB892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKMAMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKMAMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKMAMapDemo.app/ZKMAMapDemo";
+			};
+			name = Release;
+		};
+		588E06E61D30B7A5002EB892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKMAMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKMAMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKMAMapDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		588E06E71D30B7A5002EB892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKMAMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKMAMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKMAMapDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		588E06AD1D30B7A5002EB892 /* Build configuration list for PBXProject "ZKMAMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588E06DD1D30B7A5002EB892 /* Debug */,
+				588E06DE1D30B7A5002EB892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588E06DF1D30B7A5002EB892 /* Build configuration list for PBXNativeTarget "ZKMAMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588E06E01D30B7A5002EB892 /* Debug */,
+				588E06E11D30B7A5002EB892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		588E06E21D30B7A5002EB892 /* Build configuration list for PBXNativeTarget "ZKMAMapDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588E06E31D30B7A5002EB892 /* Debug */,
+				588E06E41D30B7A5002EB892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		588E06E51D30B7A5002EB892 /* Build configuration list for PBXNativeTarget "ZKMAMapDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588E06E61D30B7A5002EB892 /* Debug */,
+				588E06E71D30B7A5002EB892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 588E06AA1D30B7A5002EB892 /* Project object */;
+}
